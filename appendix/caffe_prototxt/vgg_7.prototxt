@@ -1,4 +1,4 @@
-# adapted from https://github.com/lltcggie/waifu2x-caffe
+# adapted from https://github.com/lltcggie/imagine-expander-caffe
 name: "vgg_7"
 layer {
   name: "input"

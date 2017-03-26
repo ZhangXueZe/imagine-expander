@@ -15,7 +15,7 @@ local settings = {}
 
 local cmd = torch.CmdLine()
 cmd:text()
-cmd:text("waifu2x-training")
+cmd:text("imagine-expander-training")
 cmd:text("Options:")
 cmd:option("-gpu", -1, 'GPU Device ID')
 cmd:option("-seed", 11, 'RNG seed')

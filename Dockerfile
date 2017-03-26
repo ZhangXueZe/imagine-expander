@@ -20,6 +20,6 @@ RUN \
 # suppress message `tput: No value for $TERM and no -T specified`
 ENV TERM xterm
 
-COPY . /root/waifu2x
+COPY . /root/imagine-expander
 
-WORKDIR /root/waifu2x
+WORKDIR /root/imagine-expander

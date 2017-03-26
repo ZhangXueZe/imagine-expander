@@ -72,7 +72,7 @@ local function get_xdirs(opt)
 end
 
 local cmd = torch.CmdLine()
-cmd:text("waifu2x make_pairwise_list")
+cmd:text("imagine-expander make_pairwise_list")
 cmd:option("-x_dir", "", 'Specify the directory for x(input)')
 cmd:option("-y_dir", "", 'Specify the directory for y(groundtruth). The filenames should be same as x_dir')
 cmd:option("-rate", 1, 'sampling rate')

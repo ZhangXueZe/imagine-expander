@@ -15,5 +15,5 @@ models/*
 models/*/*.png
 models/*/*/*.png
 
-waifu2x.log
-waifu2x-*.log
+imagine-expander.log
+imagine-expander-*.log

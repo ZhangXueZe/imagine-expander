@@ -6,7 +6,7 @@ require 'w2nn'
 local srcnn = require 'srcnn'
 
 local function cunn2cudnn(cunn_model)
-   local cudnn_model = srcnn.waifu2x_cudnn(srcnn.channels(cunn_model))
+   local cudnn_model = srcnn.imagine-expander_cudnn(srcnn.channels(cunn_model))
    local weight_from = cunn_model:findModules("nn.SpatialConvolutionMM")
    local weight_to = cudnn_model:findModules("cudnn.SpatialConvolution")
 
@@ -26,7 +26,7 @@ end
 
 local cmd = torch.CmdLine()
 cmd:text()
-cmd:text("waifu2x cunn model to cudnn model converter")
+cmd:text("imagine-expander cunn model to cudnn model converter")
 cmd:text("Options:")
 cmd:option("-i", "", 'Specify the input cudnn model')
 cmd:option("-o", "", 'Specify the output cunn model')

@@ -21,7 +21,7 @@ local turbo = require 'turbo'
 
 local cmd = torch.CmdLine()
 cmd:text()
-cmd:text("waifu2x-api")
+cmd:text("imagine-expander-api")
 cmd:text("Options:")
 cmd:option("-port", 8812, 'listen port')
 cmd:option("-gpu", 1, 'Device ID')
@@ -239,7 +239,7 @@ local function make_output_filename(filename, mode)
    local e = path.extension(filename)
    local base = filename:sub(0, filename:len() - e:len())
    if mode then
-      return base .. "_waifu2x_" .. mode .. ".png"
+      return base .. "_imagine-expander_" .. mode .. ".png"
    else
       return base .. ".png"
    end

@@ -59,7 +59,7 @@ end
 
 local cmd = torch.CmdLine()
 cmd:text()
-cmd:text("waifu2x rebuild cunn model")
+cmd:text("imagine-expander rebuild cunn model")
 cmd:text("Options:")
 cmd:option("-i", "", 'Specify the input model')
 cmd:option("-o", "", 'Specify the output model')

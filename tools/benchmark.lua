@@ -11,7 +11,7 @@ local cjson = require 'cjson'
 
 local cmd = torch.CmdLine()
 cmd:text()
-cmd:text("waifu2x-benchmark")
+cmd:text("imagine-expander-benchmark")
 cmd:text("Options:")
 
 cmd:option("-dir", "./data/test", 'test image directory')

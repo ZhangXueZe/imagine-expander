@@ -14,7 +14,7 @@ $(function (){
     function on_change_style(e) {
 	var checked = $("input[name=style]:checked");
 	if (checked.val() == "art") {
-	    $(".main-title").text("waifu2x");
+	    $(".main-title").text("imagine-expander");
 	} else {
 	    $(".main-title").html("w<s>/a/</s>ifu2x");
 	}

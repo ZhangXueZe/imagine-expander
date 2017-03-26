@@ -244,10 +244,10 @@ local function convert_frames(opt)
       end
    end
 end
-local function waifu2x()
+local function imagine-expander()
    local cmd = torch.CmdLine()
    cmd:text()
-   cmd:text("waifu2x")
+   cmd:text("imagine-expander")
    cmd:text("Options:")
    cmd:option("-i", "images/miku_small.png", 'path to input image')
    cmd:option("-l", "", 'path to image-list.txt')
@@ -293,4 +293,4 @@ local function waifu2x()
       convert_frames(opt)
    end
 end
-waifu2x()
+imagine-expander()
